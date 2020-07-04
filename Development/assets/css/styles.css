@@ -1,0 +1,53 @@
+#container .myUL {
+  padding: 0px;
+}
+
+#container .myUL .myList {
+  list-style-type: none;
+  border: 1px solid grey;
+  padding: 5%;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.click {
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: #323232;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
