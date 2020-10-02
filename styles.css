@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterButton {
+  background: #fff;
+  border-radius: 8px;
+  font-size: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: 0.5rem 0.25rem;
+  border: 1.5px solid black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
