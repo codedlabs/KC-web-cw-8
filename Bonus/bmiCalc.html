@@ -1,74 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
-    <title>حاسبة BMI 🙊🙉🙈</title>
-  </head>
-  <body>
-    <div>
-      <!-- السؤال الرابع -->
-      <h2 style="text-align: center; font-size: 1.5rem; margin: 1rem">
-        قم بإدخال طولك بالأمتار
-      </h2>
-      <div class="center">
-        <input
-          dir="rtl"
-          type="text"
-          placeholder="طولك بال m"
-          id="height"
-          style="text-align: center; font-size: 1rem; margin: 0.4rem"
-        />
-      </div>
-      <div class="center">
-        <input
-          dir="rtl"
-          type="text"
-          placeholder="وزنك بال kg"
-          id="weight"
-          style="
-            text-align: center;
-            font-size: 1rem;
-            margin: 0.4rem;
-            margin-bottom: 1rem;
-          "
-        />
-      </div>
-      <div class="center">
-        <button onclick="getBMI();">احسب</button>
-      </div>
-      <div class="center">
-        <h2 id="status"></h2>
-      </div>
-    </div>
-    <!-- BMI قم بفتح هذه الصفحة في المتصفح لتأخذ فكرة بسيطة عن حاسبة -->
-
-    <!-- --------------------------------------------------- -->
-    <!--  هي دالة تقوم بتكرار الكود الذي getBMI()            -->
-    <!--  تكتبه داخلها كلما ضغطت على الزر                    -->
-    <!-- --------------------------------------------------- -->
-    <script>
-      function getBMI() {
-        // height القيمة التي تدخلها في الحقل الأول تُخزن في المتغير
-        var height = document.getElementById("height").value;
-        // weight القيمة التي تدخلها في الحقل الثاني تُخزن في المتغير
-        var weight = document.getElementById("weight").value;
-        // (مؤشر كتلة الجسم = الوزن/(الطول*الطول
-        // 👇🏻 قم بترجمة المعادلة السابقة إلى كود
-        // ثم قم باختبار قيمة الناتج لتتحقق الشروط التالية
-        /*
-            BMIالحالة               مؤشر كتلة الجسم                        
-              أنت نحيف للغاية                  أقل من 20
-              وزنك جيد                       20 - 29
-              يا للهول! 😲          أكبر من أو يساوي 30
-              لا أدري! 🤷🏻‍♀️                   أي شي ثاني
-        */
-        if (condition) {
-          document.getElementById("status").innerHTML = "أنت نحيف للغاية";
-        }
-        // أكمل
-      }
-    </script>
-  </body>
-</html>

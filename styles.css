@@ -5,18 +5,49 @@ body {
   align-items: center;
 }
 
-.counterButton {
-  background: #fff;
-  border-radius: 8px;
-  font-size: 2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin: 0.5rem 0.25rem;
-  border: 1.5px solid black;
-}
-
+/* changeCurrency */
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
+}
+
+/* compareAnime */
+#container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: auto;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 2px #888888;
+  -moz-box-shadow: 0px 0px 2px #888888;
+  box-shadow: 0px 0px 2px #888888;
+}
+
+.head {
+  padding: 20px;
+  color: red;
+  font-size: 36px;
+  text-align: center;
+  background-color: #ed6f70;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 2px #888888;
+  -moz-box-shadow: 0px 0px 2px #888888;
+  box-shadow: 0px 0px 2px #888888;
 }

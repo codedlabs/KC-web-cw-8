@@ -1,54 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
-    <title>المجموع بالأرقام 🔢 أم المجموع بالأحرف 🔠؟</title>
-  </head>
-  <body>
-    <!-- السؤال الثالث -->
-    <div>
-      <h2>قم بإدخال مجموع درجاتك بالأرقام</h2>
-      <div class="center">
-        <input
-          dir="rtl"
-          type="text"
-          placeholder="درجتك بالأرقام"
-          id="inputNumber"
-          style="text-align: center; font-size: 1.5rem; margin: 1rem"
-        />
-      </div>
-      <div class="center">
-        <button onclick="getLetterGrade();">درجتك بالحروف</button>
-      </div>
-      <div class="center">
-        <h2 id="status"></h2>
-      </div>
-    </div>
-    <!-- قم بفتح هذه الصفحة في المتصفح لتأخذ فكرة بسيطة عن التمرين -->
-
-    <!-- --------------------------------------------------- -->
-    <!--  هي دالة تقوم بتكرار الكود الذي getLetterGrade()    -->
-    <!--  تكتبه داخلها كلما ضغطت على الزر                    -->
-    <!-- --------------------------------------------------- -->
-    <script>
-      function getLetterGrade() {
-        // total القيمة التي تدخلها تُخزن في المتغير
-        var total = document.getElementById("inputNumber").value;
-        // بحيث تتحقق الشروط التالية total قم باختبار قيمة
-        /*
-            الرقم       الحرف
-              D        60 - 69
-              C        70 - 79
-              B        80 - 95
-              A        90 - 100
-        */
-        if (condition) {
-          document.getElementById("status").innerHTML = "D";
-        }
-        // أكمل
-      }
-    </script>
-  </body>
-</html>
