@@ -1,47 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>اثنينكم تشوفون Anime 🎎 🏮 🤔</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- السؤال الثالث -->
-    <!-- قم بالتعرف على مجموعة المسلسلات المشتركة بينك وبين صديقك -->
-    <div id="container">
-      <div class="head">Mutual Anime</div>
-    </div>
-    <script>
-      // 1
-      /* قم بإنشاء مصفوفتين
-        اللي إنت اتابعها Animeتحتوي على مسلسلات ال myAnime المصفوفة الأولى
-        اللي رفيجك يتابعها Animeتحتوي على مسلسلات ال myFriendAnime المصفوفة الثانية
-      */
-
-      // 2
-      // mutualAnime عرف مصفوفة فاضية سمها
-
-      // mutualAnimeقارن المصفوفتين وضيف المسلسلات المشتركة ل
-
-      // consoleفي ال mutualAnime اطبع
-
-      // ودك تشوف اللستة المشتركة بينكم على الموقع؟
-      // 🏃🏻‍♂️ ادخل على صفحة الموقع في المتصفح
-
-      let ul = document.createElement("ul");
-      ul.className = "myList";
-      document.getElementById("container").appendChild(ul);
-
-      function createList(arr) {
-        mutualAnime.forEach(function (data) {
-          let li = document.createElement("li");
-          ul.appendChild(li);
-          li.innerHTML += data;
-          li.className = "listItem";
-        });
-      }
-      createList(mutualAnime);
-    </script>
-  </body>
-</html>
