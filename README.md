@@ -8,18 +8,20 @@
 
 <div dir="rtl">
 <ol>
-<li>  قم بعمل fork للـ repository المتوفرة على الرابط وقم بتحميل نسختك الخاصة على جهازك<li>
-<li>  قم بتفحص الأكواد التي قمنا بتجهيزها لك في فولدر Random ومن ثم لنبدأ الحل!<li>
-<li>  توجه نحو ملف script.js وقم بإنشاء كائن باسم project<li>
-<li>  عرف خواص كائن project:<li>
+<li>  قم بعمل fork للـ repository المتوفرة على الرابط وقم بتحميل نسختك الخاصة على جهازك
+<li>  قم بتفحص الأكواد التي قمنا بتجهيزها لك في فولدر Random ومن ثم لنبدأ الحل!
+<li>  توجه نحو ملف script.js وقم بإنشاء كائن باسم project
+<li>  عرف خواص كائن project:
 
         type من نوع string
         users من نوع number
         biography من نوع function: ترجع جملة تعريفية عن المشروع
 
-<li>  قم بإنشاء دالة باسم randomProperty<li>
-<li>  دالة randomProperty مسؤولة عن طباعة خاصية عشوائية من خواص العنصر project (استخدم دالة ( )Random)<li>
+<li>  قم بإنشاء دالة باسم randomProperty
+<li>  دالة randomProperty مسؤولة عن طباعة خاصية عشوائية من خواص العنصر project (استخدم دالة ( )Random)
 </ol>
+</div>
+
 آخر موعد لرفع الكود `git push` هو نهاية المحاضرة
 
 <hr>
