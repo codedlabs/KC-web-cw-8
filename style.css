@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: monospace;
+  height: 100vh;
+  border: 10px inset #3d3d3dcc;
+}
+
+h4 {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h4 span {
+  padding: 5px;
+  border: 0.5px solid #3d3d3d3f;
+  background-color: #3d3d3d1f;
+}
+hr {
+  width: 30%;
+}
