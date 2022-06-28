@@ -61,7 +61,7 @@
 2. اعرض قيمة الدرجة عند الرقم العشوائي في random_grade_div، بالصيغة التالية:<br>
 `<span> #${randomIndex}: ${grades[randomIndex]} </span>`
 3. احفظ اتغيرات وارفع الكود إلى github
-4. قم بتسليم التمرين على موقع Mentorly
+4. قم بتسليم التمرين على موقع Coded lab
 
 
  <p dir="rtl">
