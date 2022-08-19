@@ -18,7 +18,7 @@ h4 {
   justify-content: space-evenly;
 }
 
-h4 span {
+h4 div {
   padding: 5px;
   border: 0.5px solid #3d3d3d3f;
   background-color: #3d3d3d1f;
