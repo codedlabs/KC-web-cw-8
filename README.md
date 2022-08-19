@@ -18,7 +18,7 @@
 ```
 forEach يحب أن تستخدم هذا الكود داخل دالة
 
-all_grades_div.innerHTML += `<div${element}</div>`;
+all_grades_div.innerHTML += `<div>${element}</div>`;
 ```
 
  6. طبق المطلوب أدناه داخل دالة ()search:
