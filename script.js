@@ -16,14 +16,10 @@ let random_grade_div = document.getElementById("random-grade");
 
 
 function search() {
-  let inputValue = document.getElementById("input").value;
   
-  // طبّق الخطوة 7 أسفل هذا الكومنت
+  // طبّق الخطوة 7و8 أسفل هذا الكومنت
   
 }
 
-// طبّق الخطوة 8 و 9 أسفل هذا الكومنت
-
-// طبّق الخطوة 10 أسفل هذا الكومنت
 
 
