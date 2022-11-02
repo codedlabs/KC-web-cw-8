@@ -11,7 +11,7 @@ let random_grade_div = document.getElementById("random-grade");
 
 // طبّق الخطوة 5 في أسفل هذا الكومنت
 
-// طبّق الخطوة 6 أسفل هذا الكومنت
+// طبّق الخطوة 6 أسفل  هذا الكومنت
 
 
 
